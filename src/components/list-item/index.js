@@ -23,7 +23,7 @@ const List = ({id, event, place, entry, remove, onChange, onRemove, drag}) => {
         </View>
         <View style={styles.eventDetails}>
           <View style={[styles.row, styles.jusbetween]}>
-            <Text weight="bold" style={styles.eventText}>
+            <Text weight="bold" numberOfLines={1} style={styles.eventText}>
               {event}
             </Text>
             <View style={styles.eventEntry}>

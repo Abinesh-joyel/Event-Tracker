@@ -11,9 +11,9 @@ export const styles = StyleSheet.create({
     height: 50,
   },
   listItem: {
-    paddingBottom: 65,
+    paddingBottom: 15,
   },
   listPadding: {
-    paddingHorizontal: 15,
+    paddingHorizontal: 12,
   },
 });

@@ -56,23 +56,17 @@ const EventDetails = ({
               electronic typesetting, remaining essentially unchanged.
             </Text>
           </View>
-          <View style={[styles.top, styles.row, styles.jusbetween]}>
-            <View style={[styles.flex1, styles.row]}>
-              <MaterialIcons name="event" size={24} color={colors.brown} />
-              <Text style={styles.eventText} weight="bold">
-                {event?.event}
-              </Text>
-            </View>
-            <View style={[styles.flex1, styles.row]}>
-              <MaterialIcons
-                name="my-location"
-                size={24}
-                color={colors.brown}
-              />
-              <Text style={styles.eventText} weight="bold">
-                {event?.place}
-              </Text>
-            </View>
+          <View style={[styles.top, styles.row]}>
+            <MaterialIcons name="event" size={24} color={colors.brown} />
+            <Text style={styles.eventText} weight="bold">
+              {event?.event}
+            </Text>
+          </View>
+          <View style={[styles.top, styles.row]}>
+            <MaterialIcons name="my-location" size={24} color={colors.brown} />
+            <Text style={styles.eventText} weight="bold">
+              {event?.place}
+            </Text>
           </View>
           <View style={[styles.top, styles.row]}>
             <MaterialIcons name="attach-money" size={24} color={colors.brown} />

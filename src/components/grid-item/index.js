@@ -16,7 +16,9 @@ const Grid = ({id, event, entry, onChange}) => {
             />
           </View>
           <View style={styles.eventText}>
-            <Text weight="bold">{event}</Text>
+            <Text weight="bold" numberOfLines={1}>
+              {event}
+            </Text>
           </View>
           <View style={styles.eventEntry}>
             <Text weight="bold" style={styles.entryText}>

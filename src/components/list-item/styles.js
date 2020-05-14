@@ -7,7 +7,7 @@ export const styles = StyleSheet.create({
     backgroundColor: colors.white,
     borderRadius: 10,
     paddingVertical: 5,
-    paddingHorizontal: 10,
+    paddingHorizontal: 8,
     flexDirection: 'row',
     marginTop: 12,
   },
@@ -27,7 +27,9 @@ export const styles = StyleSheet.create({
     flex: 1,
   },
   eventText: {
-    fontSize: 16,
+    fontSize: 15,
+    flex: 1,
+    marginRight: 5,
   },
   eventEntry: {
     backgroundColor: colors.lightBrown,
